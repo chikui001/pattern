@@ -11,18 +11,18 @@ import android.view.View;
 /**
  * Created by jiao on 16/3/24.
  */
-public class DetectCenterRecyclerView extends RecyclerView {
+public class ScrollCenterRecyclerView extends RecyclerView {
 
-	public DetectCenterRecyclerView(Context context) {
+	public ScrollCenterRecyclerView(Context context) {
 		this(context, null);
 	}
 
-	public DetectCenterRecyclerView(Context context, AttributeSet attrs) {
+	public ScrollCenterRecyclerView(Context context, AttributeSet attrs) {
 		this(context, attrs, 0);
 
 	}
 
-	public DetectCenterRecyclerView(Context context, AttributeSet attrs, int defStyle) {
+	public ScrollCenterRecyclerView(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 		init();
 	}

@@ -1,4 +1,7 @@
-# pattern
+
+
+
+# pattern for Android
 
 
 ## MaskView (guide view click dismiss with resource layout-xml layout easily)

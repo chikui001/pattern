@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Test</string>
+
+
+    <string name="bluetooth_dialog_low_battery_content">萌妈您好, 搜索不到萌动？请先给萌动充满电量, 若电量充足, 请点击继续排查哦～</string>
+    <string name="bluetooth_dialog_low_battery_forward">去充电~</string>
+    <string name="bluetooth_dialog_low_battery_backward">继续排查</string>
+
+    <string name="bluetooth_dialog_location_content">6.0以上的安卓手机没有开启定位也会导致蓝牙扫描失败呢，快去看看定位有没有打开吧～如果您是6.0以下，请您继续排查其他原因</string>
+    <string name="bluetooth_dialog_location_forward">上一步</string>
+    <string name="bluetooth_dialog_location_backward">排查其他原因</string>
+
+    <string name="bluetooth_dialog_connected_by_others_content">
+        搜索不到萌动有多种情况，麻麻请看完卡⽚再对应⾃身情况进⾏排查～第一种：萌动可能被手机中的其它APP连接上了，请先关闭除萌动之外的APP，再将萌动放置充电器上重启后再次尝试连接呢～
+    </string>
+    <string name="bluetooth_dialog_connected_by_others_forward">上一步</string>
+    <string name="bluetooth_dialog_connected_by_others_backward">排查其他原因</string>
+
+    <string name="bluetooth_dialog_not_mine_content">
+        第二种:请确认您连接的设备与当初绑定的为同一设备;如绑定设备不在身边,需连接当前新设备,请前往【我的】-【我的设备】先进行【解除绑定】操作,再重新绑定当前设备
+    </string>
+    <string name="bluetooth_dialog_not_mine_forward">上一步</string>
+    <string name="bluetooth_dialog_not_mine_backward">排查其他原因</string>
+
+    <string name="bluetooth_dialog_by_other_phone_content">
+        第三种:麻麻有没有两部手机换着用呢~如果另一部手机已绑定了萌动,那么请先解绑另一部手机上的萌动,然后再用当前手机来连接萌动哦~如您只使用一部手机,请跳过此步骤~
+    </string>
+    <string name="bluetooth_dialog_by_other_phone_forward">上一步</string>
+    <string name="bluetooth_dialog_by_other_phone_backward">知道了</string>
+
+    <string name="bluetooth_dialog_reset_content">蓝牙连接失败，将萌动放在充电器上，停留5s蓝光亮起重启一下试试呢～万一成功了呢</string>
+    <string name="bluetooth_dialog_reset_backward">排查其他原因</string>
+
+    <string name="bluetooth_dialog_reboot_bluetooth_content">蓝牙连接失败，萌妈请下拉系统菜单试试重启蓝牙吧～</string>
+    <string name="bluetooth_dialog_reboot_bluetooth_forward">上一步</string>
+    <string name="bluetooth_dialog_reboot_bluetooth_backward">排查其他原因</string>
+
+    <string name="bluetooth_dialog_reboot_phone_content">如果进行以上操作后，蓝牙连接依旧失败，萌妈请重启手机试试吧～</string>
+    <string name="bluetooth_dialog_reboot_phone_forward">上一步</string>
+    <string name="bluetooth_dialog_reboot_phone_backward">排查其他原因</string>
+
+    <string name="bluetooth_dialog_wifi_content">wifi有时候也会干扰萌动工作哦～萌妈请关闭wifi后再次尝试～</string>
+    <string name="bluetooth_dialog_wifi_forward">上一步</string>
+    <string name="bluetooth_dialog_wifi_backward">知道了</string>
+
+</resources>

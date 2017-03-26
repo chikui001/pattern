@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <attr name="civ_fill_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="MaskView_Layout">
+        <attr name="mask_layout_anchor" format="integer"/>
+        <attr name="mask_layout_anchorId" format="integer"/>
+        <attr name="mask_layout_anchorParentId" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="MaskView">
+        <attr name="mask_shadow_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="ScanFlowView">
+        <attr name="bottom_id" format="integer"/>
+        <attr name="top_id" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="CountDownCircleView">
+        <attr name="circle_width" format="dimension"/>
+        <attr name="circle_color" format="color"/>
+        <attr name="clock_wise" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="mlpb_inner_radius" format="dimension"/>
+        <attr name="mlpb_background_color" format="color"/>
+        <attr name="mlpb_progress_color" format="color"/>
+        <attr name="mlpb_progress_stoke_width" format="dimension"/>
+        <attr name="mlpb_show_arrow" format="boolean"/>
+        <attr name="mlpb_enable_circle_background" format="boolean"/>
+        <attr name="mlpb_arrow_width" format="dimension"/>
+        <attr name="mlpb_arrow_height" format="dimension"/>
+
+        <attr name="mlpb_progress" format="integer"/>
+        <attr name="mlpb_max" format="integer"/>
+
+
+        <attr name="mlpb_progress_text_size" format="dimension"/>
+        <attr name="mlpb_progress_text_color" format="color"/>
+
+        <!--<attr name="mlpb_progress_text_offset" format="dimension"/>-->
+
+        <attr name="mlpb_progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
+
+

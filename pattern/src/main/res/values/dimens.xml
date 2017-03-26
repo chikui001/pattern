@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="snack_left_right_space">40dp</dimen>
+    <dimen name="snack_left_right_space_anti">-40dp</dimen>
+
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+
+    <dimen name="status_bar_height">25dp</dimen>
+
+    <dimen name="qrcode_frame_corner_long">25dp</dimen>
+    <dimen name="qrcode_frame_corner_short">3dp</dimen>
+    <dimen name="laser_height">3dp</dimen>
+</resources>

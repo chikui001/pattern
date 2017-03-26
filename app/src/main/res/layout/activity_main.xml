@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            tools:context="com.chiao.test.MainActivity"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal"
+                      android:gravity="center_vertical">
+            <com.chiao.pattern.widgets.timeview.CountDownCircleView
+                    android:id="@+id/count_down_view"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:circle_width="7dp"
+                    app:circle_color="#9970EF"/>
+            <TextSwitcher
+                    android:id="@+id/count_textSwitcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal"
+                      android:gravity="center_vertical"
+                      android:layout_marginTop="100dp">
+            <com.chiao.pattern.widgets.timeview.ReverseDownCircleView
+                    android:id="@+id/reverse_down_view"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:circle_width="7dp"
+                    app:circle_color="#9970EF"/>
+            <TextSwitcher
+                    android:id="@+id/reverse_textSwitcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+        <com.chiao.pattern.widgets.recyclerview.RecyclerViewPager
+                android:id="@+id/recycler_viewPage"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+

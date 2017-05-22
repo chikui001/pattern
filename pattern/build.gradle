@@ -13,6 +13,10 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
+    lintOptions {
+        abortOnError false
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -30,3 +34,18 @@ dependencies {
     compile 'com.android.support:design:25.1.0'
     testCompile 'junit:junit:4.12'
 }
+
+//单独打出本地maven包
+
+//apply plugin: 'maven'
+//
+//uploadArchives {
+//    repositories.mavenDeployer {
+//        repository(url: LOCAL_REPO_URL)
+//        pom.groupId = PROJ_GROUP
+//        pom.artifactId = PROJ_ARTIFACTID
+//        pom.version = PROJ_VERSION
+//    }
+//}
+
+apply from: './binary.gradle'
